@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>yaoyao_task3</title>
+    <link rel="stylesheet" type="text/css" href="task3.css">
+</head>
+<body>
+    <form method="post" action="" name="form1">
+        <div id="select_box">
+            <input type="radio" name="student" value="1" id="in_school" onclick="in_school_form()" checked="checked" />在校生
+            <input type="radio" name="student" value="2" id="out_school" onclick="out_school_form()" />非在校生
+        </div>
+        <div id="table_in">
+            <label>城市</label>
+            <select name="city" id="city" onchange="getCity()">
+                <option value="0">--请选择城市--</option>
+                <option value="bj">北京</option>
+                <option value="sh">上海</option>
+                <option value="gz">广州</option>
+            </select>
+
+            <label>学校</label>
+            <select name="school" id="school">
+                <option value="0">--请选择学校--</option>
+            </select>
+        </div>
+        <div id="table_out">
+            <label>就业单位</label>
+            <input type="text">
+        </div>
+    </form>
+
+    <script type="text/javascript" src="task3.js" charset="GBK"></script>
+
+</body>
+</html>

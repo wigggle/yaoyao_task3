@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#select_box{
+    margin-bottom: 20px;
+}
+#table_in{
+ display: block;
+}
+#table_out{
+    display: none;
+}
+
+
